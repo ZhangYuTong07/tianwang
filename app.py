@@ -7,7 +7,7 @@ import re
 from openai import OpenAI
 
 # ========== 配置 ==========
-DEEPSEEK_API_KEY = "sk-你的新Key"  # 替换成你新创建的Key
+DEEPSEEK_API_KEY = "sk-283a62aeea904b658005450aba626ebb"  # 替换成你新创建的Key
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 st.set_page_config(page_title="天网演武", page_icon="⚔️", layout="wide")
