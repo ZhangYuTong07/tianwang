@@ -12,7 +12,7 @@ try:
     DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]
 except:
     # 本地测试用，请替换成你的真实 Key
-    DEEPSEEK_API_KEY = "sk-你的本地测试Key"
+    DEEPSEEK_API_KEY = DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
